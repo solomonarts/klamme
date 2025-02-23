@@ -1,0 +1,122 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 1rem;
+  background: transparent;
+  transition: all 0.3s ease;
+
+  @media only screen and (max-width: 1080px) {
+    padding: 0;
+  }
+
+  &.scrolled {
+    background: #25183d46;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.171);
+  }
+
+  .navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .navbar-logo {
+      color: #fff;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .navbar-links {
+      display: flex;
+      gap: 1.5rem;
+      list-style: none;
+
+      @media only screen and (max-width: 1080px) {
+        display: none;
+      }
+
+      a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.1rem;
+        transition: color 0.3s;
+        position: relative;
+
+        &:hover {
+          color: #d4a4f6;
+          &::after {
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            content: "";
+            height: 4px;
+            border-radius: 5px;
+            width: 100%;
+            background-color: #d4a4f6;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+          }
+        }
+      }
+    }
+  }
+
+  .hidden-nav {
+    display: none;
+
+    @media only screen and (max-width: 1080px) {
+      display: block;
+    }
+  }
+
+  .mobile-nav {
+    background: #25183d46;
+    backdrop-filter: blur(8px);
+    margin: auto;
+    max-width: 100%;
+    padding: 0.5rem;
+  }
+
+  .mobile-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    list-style: none;
+    align-items: center;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.1rem;
+      transition: color 0.3s;
+      text-align: center;
+      position: relative;
+
+      &:hover {
+        color: #d4a4f6;
+        &::after {
+          position: absolute;
+          bottom: -5px;
+          left: 0;
+          content: "";
+          height: 4px;
+          border-radius: 5px;
+          width: 100%;
+          background-color: #d4a4f6;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          -ms-border-radius: 5px;
+          -o-border-radius: 5px;
+        }
+      }
+    }
+  }
+}

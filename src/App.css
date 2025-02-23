@@ -1,0 +1,10 @@
+@import "./assets/styles/global.scss";
+@import "./assets/styles/about.scss";
+@import "./assets/styles/contact.scss";
+@import "./assets/styles/main.scss";
+@import "./assets/styles/navbar.scss";
+@import "./assets/styles/tokenomics.scss";
+@import "./assets/styles/community.scss";
+@import "./assets/styles/contract.scss";
+@import "./assets/styles/buy.scss";
+@import "./assets/styles/PrivacyPolicy.scss";

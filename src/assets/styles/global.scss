@@ -1,0 +1,22 @@
+/*Colors*/
+$white: #ffffff;
+$purple: #6a0dad;
+$navy-blue: #001f54;
+
+/*Typography*/
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+/* Utility Classes */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fullscreen {
+  height: 100vh;
+  width: 100%;
+}

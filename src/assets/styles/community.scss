@@ -1,0 +1,69 @@
+.community-section {
+  min-height: 60vh;
+  padding: 2rem 12rem;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  background: linear-gradient(45deg, #6a0dad, #25183d, #6a0dad);
+  background-size: 400% 400%;
+  animation: gradientAnimation 10s ease infinite;
+  transform-style: preserve-3d;
+  perspective: 10px;
+
+  @media only screen and (max-width: 1080px) {
+    height: 80vh;
+    padding: 2rem;
+  }
+
+  .content {
+    text-align: center;
+    z-index: 99;
+
+    .title {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #ffffff;
+    }
+
+    p {
+      font-size: 1.25rem;
+      margin-bottom: 2rem;
+      background-color: #25183d;
+      padding: 1rem 1.3rem;
+      width: fit-content;
+      align-self: center;
+      margin: auto;
+
+      @media only screen and (max-width: 600px) {
+        font-size: 1.05rem;
+      }
+      .underline {
+        text-decoration: underline;
+        color: #ffffff;
+      }
+    }
+
+    .dot-decoration {
+      width: 80px;
+      height: 80px;
+      border: 2px solid #ffffff;
+      border-radius: 50%;
+      margin: 2rem auto;
+    }
+  }
+
+  .community-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: absolute;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    right: 0;
+    object-fit: cover;
+    z-index: -1;
+  }
+}

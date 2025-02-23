@@ -1,0 +1,85 @@
+.buy-section {
+  background-color: #ffffff; /* White background */
+  padding: 2rem 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 60vh;
+
+  @media only screen and (max-width: 1080px) {
+    height: 80vh;
+    padding: 2rem;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  .buy-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #001f54; /* Navy Blue */
+    margin-bottom: 2rem;
+  }
+
+  .logos {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+
+    .logo-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #6a0dad; /* Purple */
+      border-radius: 50%;
+      padding: 1rem;
+
+      &.dark-bg {
+        background-color: #001f54; /* Navy Blue */
+      }
+
+      .logo {
+        width: 3rem;
+        height: auto;
+      }
+    }
+  }
+
+  .buy-button-container {
+    margin-bottom: 2rem;
+
+    .buy-button {
+      padding: 0.75rem 1.5rem;
+      font-size: 1.5rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      color: #ffffff; /* White */
+      background: rgba(106, 13, 173, 0.6); /* Frosty Transparent Purple */
+      border: none;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      backdrop-filter: blur(8px);
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background: rgba(106, 13, 173, 0.8); /* Slightly darker frosty purple */
+      }
+    }
+  }
+
+  .buy-description {
+    color: #001f54; /* Navy Blue */
+
+    .highlight-text {
+      color: #6a0dad; /* Purple */
+      cursor: pointer;
+      text-decoration: underline;
+
+      &:hover {
+        color: #54157b; /* Darker Purple */
+      }
+    }
+  }
+}
