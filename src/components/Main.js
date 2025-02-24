@@ -38,7 +38,11 @@ const Main = ({ openDock }) => {
           blockchain leaders!
         </p>
         <div>
-          <a href="https://www.raydium.io" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.raydium.io"
+            target="_blank"
+            rel="noreferrer noreopener"
+          >
             <button className="cta-button">Buy $RISE</button>
           </a>
         </div>

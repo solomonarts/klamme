@@ -43,6 +43,8 @@ const ContactSection = ({ openDock }) => {
               <a
                 href="https://x.com/Rise_educate"
                 aria-label="Twitter"
+                target="_blank"
+                rel="noreferrer noreopener"
                 style={{ textAlign: "center", marginLeft: "45px" }}
               >
                 <FaXTwitter />
