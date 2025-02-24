@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/klamme/static/css/main.4aa313b0.css",
-    "main.js": "/klamme/static/js/main.a4e4eec6.js",
-    "static/js/453.9e006812.chunk.js": "/klamme/static/js/453.9e006812.chunk.js",
-    "static/media/IMG_5022.JPG": "/klamme/static/media/IMG_5022.fc3d2dde3a0df413d797.JPG",
-    "static/media/about.JPG": "/klamme/static/media/about.e9e53ad4677869496849.JPG",
-    "static/media/hero.JPG": "/klamme/static/media/hero.1fd7c9cc74d00273bd1c.JPG",
-    "static/media/tokenomics.png": "/klamme/static/media/tokenomics.22c28e624c1fae735851.png",
-    "static/media/solana-sol-logo_1solana-sol-logo.webp": "/klamme/static/media/solana-sol-logo_1solana-sol-logo.69913ae832af9c840ff5.webp",
-    "static/media/usdc.webp": "/klamme/static/media/usdc.b9697c97b08ef77bcc54.webp",
-    "index.html": "/klamme/index.html",
-    "main.4aa313b0.css.map": "/klamme/static/css/main.4aa313b0.css.map",
-    "main.a4e4eec6.js.map": "/klamme/static/js/main.a4e4eec6.js.map",
-    "453.9e006812.chunk.js.map": "/klamme/static/js/453.9e006812.chunk.js.map"
+    "main.css": "/RISEmme/static/css/main.2f981e68.css",
+    "main.js": "/RISEmme/static/js/main.d4678cd6.js",
+    "static/js/453.79fddfab.chunk.js": "/RISEmme/static/js/453.79fddfab.chunk.js",
+    "static/media/rise3.jpg": "/RISEmme/static/media/rise3.83feb4666a8f89942fba.jpg",
+    "static/media/rise2.jpg": "/RISEmme/static/media/rise2.1300331c6d97af038a2f.jpg",
+    "static/media/rise1.jpg": "/RISEmme/static/media/rise1.4a73d6eedda5455bd1fd.jpg",
+    "static/media/tokenomics.png": "/RISEmme/static/media/tokenomics.67069d5e81f35604b0a0.png",
+    "static/media/riselogo.png": "/RISEmme/static/media/riselogo.0735907f34a832d6d5fc.png",
+    "static/media/solana-sol-logo_1solana-sol-logo.webp": "/RISEmme/static/media/solana-sol-logo_1solana-sol-logo.69913ae832af9c840ff5.webp",
+    "static/media/usdc.webp": "/RISEmme/static/media/usdc.b9697c97b08ef77bcc54.webp",
+    "index.html": "/RISEmme/index.html",
+    "main.2f981e68.css.map": "/RISEmme/static/css/main.2f981e68.css.map",
+    "main.d4678cd6.js.map": "/RISEmme/static/js/main.d4678cd6.js.map",
+    "453.79fddfab.chunk.js.map": "/RISEmme/static/js/453.79fddfab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4aa313b0.css",
-    "static/js/main.a4e4eec6.js"
+    "static/css/main.2f981e68.css",
+    "static/js/main.d4678cd6.js"
   ]
 }

@@ -22,13 +22,13 @@ const PrivacyPolicyDock = ({ openDock, setOpenDock }) => {
             <button className="close-button" onClick={toggleDock}>
               &times;
             </button>
-            <h2>Privacy Policy for $KLA Memes</h2>
+            <h2>Privacy Policy for $RISE Memes</h2>
             <p>Effective Date: dd/mm/yyyy</p>
 
             <h3>Overview</h3>
             <p>
               This Privacy Policy outlines the types of personal information
-              that may be collected through the www.klameme.com website (the
+              that may be collected through the www.RISEmeme.com website (the
               “Website”), how it may be used, and the efforts to protect it. It
               is important to note that because the Website operates on a fully
               decentralized platform, traditional data control and processing by
@@ -114,7 +114,7 @@ const PrivacyPolicyDock = ({ openDock, setOpenDock }) => {
             <p>
               For questions or concerns about this Privacy Policy, please
               contact the community support at{" "}
-              <strong>support@klameme.com</strong>.
+              <strong>support@RISEmeme.com</strong>.
             </p>
           </div>
           {/* Click outside the dock to close */}

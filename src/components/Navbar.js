@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
 import { MdClose } from "react-icons/md";
+import riselogo from "../assets/images/riselogo.png";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -29,7 +30,8 @@ const Navbar = () => {
             alignItems: "center",
           }}
         >
-          <h1 className="navbar-logo">$KLA</h1>
+          <img src={riselogo} className="navlogo" />
+          {/* <h1 className="navbar-logo">$RISE</h1> */}
           <div className="hidden-nav">
             <button
               onClick={toggleMenu}

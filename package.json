@@ -1,7 +1,7 @@
 {
   "name": "risememe",
   "version": "0.1.0",
-  "homepage": "https://solomonarts.github.io/klamme",
+  "homepage": "https://solomonarts.github.io/RISEmme",
   "private": true,
   "dependencies": {
     "@heroui/react": "^2.6.14",

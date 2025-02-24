@@ -1,5 +1,5 @@
 .main-section {
-  min-height: 80vh;
+  min-height: 90vh;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -13,7 +13,7 @@
   .content {
     max-width: 800px;
     color: white;
-    margin-bottom: 2rem;
+    margin-top: 5rem;
     z-index: 2;
 
     h1 {
@@ -68,5 +68,67 @@
   }
   100% {
     background-position: 0% 50%;
+  }
+}
+
+.contract-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  padding: 10px;
+
+  .contract-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff; /* White */
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .address-container {
+    width: 90%;
+    max-width: 600px;
+    background-color: #ffffff;
+    /*White*/
+    border-radius: 50px;
+    padding: 0.5rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    .address-box {
+      display: flex;
+      align-items: center;
+      padding: 0.5rem 1rem;
+
+      .address-text {
+        flex-grow: 1;
+        color: #001f54; /* Navy Blue */
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .copy-button {
+        padding: 0.7rem 0.5rem;
+        color: #ffffff;
+        /*White*/
+        background: rgba(106, 13, 173, 0.6);
+        /*FrostyTransparentPurple*/
+        border: none;
+        border-radius: 50px;
+        backdrop-filter: blur(8px);
+        border: #6a0dad 2px solid;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        &:hover {
+          background: rgba(
+            106,
+            13,
+            173,
+            0.8
+          ); /* Slightly darker frosty purple */
+        }
+      }
+    }
   }
 }

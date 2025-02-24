@@ -22,13 +22,13 @@ const TermsDock = ({ openDock, setOpenDock }) => {
             <button className="close-button" onClick={toggleDock}>
               &times;
             </button>
-            <h2>Terms and Conditions for $KLA Memes</h2>
+            <h2>Terms and Conditions for $RISE Memes</h2>
             <p>Effective Date: dd/mm/yyyy</p>
 
             <h3>Website Ownership: </h3>
             <p>
-              This website, located at www.klameme.com (the “Website”), is a
-              community-owned platform managed entirely by the $KLA Memes
+              This website, located at www.RISEmeme.com (the “Website”), is a
+              community-owned platform managed entirely by the $RISE Memes
               holders. These Terms and Conditions incorporate by reference our
               Privacy Policy and any other relevant policies or terms that may
               be published from time to time.
@@ -43,9 +43,9 @@ const TermsDock = ({ openDock, setOpenDock }) => {
 
             <h3>Services Description: </h3>
             <p>
-              The Website serves as an access point for the $KLA Memes, a Solana
-              blockchain-based asset symbolizing support for the ideals
-              represented by $KLA. This coin is intended for community
+              The Website serves as an access point for the $RISE Memes, a
+              Solana blockchain-based asset symbolizing support for the ideals
+              represented by $RISE. This coin is intended for community
               engagement and is not an investment or financial instrument.
             </p>
             {/* <ul>
@@ -102,15 +102,15 @@ const TermsDock = ({ openDock, setOpenDock }) => {
 
             <h3>Transactions</h3>
             <p>
-              All transactions involving $KLA Memess are final and
+              All transactions involving $RISE Memess are final and
               non-refundable. The value of these coins can be highly volatile.
             </p>
 
             <h3>Content and Proprietary Rights: </h3>
             <p>
-              The community of $KLA holders owns all content on the Website. You
-              may not reproduce, redistribute, or create derivative works from
-              any content without explicit community permission.
+              The community of $RISE holders owns all content on the Website.
+              You may not reproduce, redistribute, or create derivative works
+              from any content without explicit community permission.
             </p>
             <h3>Disclaimer of Warranties:</h3>
             <p>
@@ -122,7 +122,7 @@ const TermsDock = ({ openDock, setOpenDock }) => {
 
             <h3>Limitation of Liability: </h3>
             <p>
-              The community of $KLA Memes holders will not be liable for any
+              The community of $RISE Memes holders will not be liable for any
               damages that arise from your use of the Website or your inability
               to use it. This includes, but is not limited to, data loss or lost
               profits.
@@ -145,7 +145,8 @@ const TermsDock = ({ openDock, setOpenDock }) => {
             <h3>Contact Us:</h3>
             <p>
               For questions or concerns about these Terms and Conditions, please
-              contact community support at <strong>support@klameme.com.</strong>
+              contact community support at{" "}
+              <strong>support@RISEmeme.com.</strong>
             </p>
           </div>
           {/* Click outside the dock to close */}

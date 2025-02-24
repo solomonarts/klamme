@@ -7,8 +7,8 @@ const TokenomicsSection = () => {
       <div className="content">
         <h2>Tokenomics and Allocation</h2>
         <p>
-          There are 225,000,000 $KLA available on day one and will grow to a
-          total of 1 billion $KLA over three years. Each allocation is released
+          There are 225,000,000 $RISE available on day one and will grow to a
+          total of 1 billion $RISE over three years. Each allocation is released
           on its schedule over three years:
         </p>
         <div
@@ -45,7 +45,7 @@ const TokenomicsSection = () => {
               <td>-</td>
             </tr>
             <tr>
-              <td>Vocational Dev’t</td>
+              <td>Blockchain Education</td>
               <td>25</td>
               <td>10</td>
               <td>0 Months</td>

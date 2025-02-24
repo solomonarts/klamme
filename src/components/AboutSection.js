@@ -1,5 +1,5 @@
 import React from "react";
-import aboutpic from "../assets/images/about.JPG";
+import aboutpic from "../assets/images/rise3.jpg";
 
 const AboutSection = () => {
   return (
@@ -8,26 +8,28 @@ const AboutSection = () => {
         <div className="about-columns">
           <div className="text-column">
             <h2>
-              About <span className="highlight">$KLA</span>
+              About <span className="highlight">$RISE</span>
             </h2>
             <p style={{ fontWeight: 900 }}>
-              From the <span className="underline">streets of Kampala</span> to
-              a movement of empowerment and transformation.
+              From <span className="underline"> university classrooms</span> to
+              the forefront of blockchain innovation.
             </p>
 
             <p>
-              From the{" "}
-              <span className="underline"> struggles of street life </span> to a
-              future of opportunity, $KLA represents resilience,
-              self-development, and hope. It is a symbol of every child’s
-              potential to overcome adversity through education, skills, and
-              patriotism. Rooted in the mission to uplift street and ghetto
-              children, $KLA is more than a meme—it’s a call to action for those
-              who believe in the power of change. <br /> <br /> Today, $KLA
-              fuels a movement that advocates for funding education and skill
-              development, equipping street and ghetto children with the tools
-              to build a better future. It embodies the belief that no challenge
-              is too great to overcome with the right opportunities.
+              The{" "}
+              <span className="underline">$RISE Blockchain Initiative </span> is
+              dedicated to creating a blockchain-literate society, equipping
+              university students with the skills and knowledge to build
+              decentralized solutions for Africa’s future.
+              <br /> <br />
+              Rooted in the mission to bridge the blockchain education gap,
+              $RISE goes beyond being just a token—it’s a movement for those who
+              believe in the power of blockchain to drive economic and
+              technological transformation.
+              <br /> <br />
+              Today, $RISE fuels a movement that advocates for blockchain
+              literacy, developer training, and research initiatives, providing
+              students with the tools to build a decentralized future.
             </p>
           </div>
           <div className="image-column">
@@ -43,8 +45,8 @@ const AboutSection = () => {
               padding: "10px 20px",
             }}
           >
-            Join the movement. Support the mission. Let’s build a future where
-            every child can RISE.
+            Join the movement. Support the mission. Let’s educate, innovate, and
+            transform Africa through blockchain.
           </h4>
         </div>
         <div className="dot-background"></div>

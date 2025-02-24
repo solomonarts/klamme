@@ -47,9 +47,10 @@ function ContractSection() {
             Crypto Community, it’s time to make an impact!
           </h4>
           <h6>
-            Join the $KLA movement and help transform the streets and ghettos of
-            Kampala! This is more than a meme—it’s a mission to uplift
-            underprivileged children through education, skills, and opportunity
+            Join the $RISE movement and be part of Africa’s blockchain
+            revolution! This is more than just a project—it’s a mission to equip
+            university students with blockchain knowledge and create a thriving
+            Web3 ecosystem.
           </h6>
         </div>
       </div>
