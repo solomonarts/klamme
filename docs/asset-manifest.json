@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/RISEmme/static/css/main.2f981e68.css",
-    "main.js": "/RISEmme/static/js/main.d4678cd6.js",
-    "static/js/453.79fddfab.chunk.js": "/RISEmme/static/js/453.79fddfab.chunk.js",
-    "static/media/rise3.jpg": "/RISEmme/static/media/rise3.83feb4666a8f89942fba.jpg",
-    "static/media/rise2.jpg": "/RISEmme/static/media/rise2.1300331c6d97af038a2f.jpg",
-    "static/media/rise1.jpg": "/RISEmme/static/media/rise1.4a73d6eedda5455bd1fd.jpg",
-    "static/media/tokenomics.png": "/RISEmme/static/media/tokenomics.67069d5e81f35604b0a0.png",
-    "static/media/riselogo.png": "/RISEmme/static/media/riselogo.0735907f34a832d6d5fc.png",
-    "static/media/solana-sol-logo_1solana-sol-logo.webp": "/RISEmme/static/media/solana-sol-logo_1solana-sol-logo.69913ae832af9c840ff5.webp",
-    "static/media/usdc.webp": "/RISEmme/static/media/usdc.b9697c97b08ef77bcc54.webp",
-    "index.html": "/RISEmme/index.html",
-    "main.2f981e68.css.map": "/RISEmme/static/css/main.2f981e68.css.map",
-    "main.d4678cd6.js.map": "/RISEmme/static/js/main.d4678cd6.js.map",
-    "453.79fddfab.chunk.js.map": "/RISEmme/static/js/453.79fddfab.chunk.js.map"
+    "main.css": "/klamme/static/css/main.2f981e68.css",
+    "main.js": "/klamme/static/js/main.64f9dda9.js",
+    "static/js/453.79fddfab.chunk.js": "/klamme/static/js/453.79fddfab.chunk.js",
+    "static/media/rise3.jpg": "/klamme/static/media/rise3.83feb4666a8f89942fba.jpg",
+    "static/media/rise2.jpg": "/klamme/static/media/rise2.1300331c6d97af038a2f.jpg",
+    "static/media/rise1.jpg": "/klamme/static/media/rise1.4a73d6eedda5455bd1fd.jpg",
+    "static/media/tokenomics.png": "/klamme/static/media/tokenomics.67069d5e81f35604b0a0.png",
+    "static/media/riselogo.png": "/klamme/static/media/riselogo.0735907f34a832d6d5fc.png",
+    "static/media/solana-sol-logo_1solana-sol-logo.webp": "/klamme/static/media/solana-sol-logo_1solana-sol-logo.69913ae832af9c840ff5.webp",
+    "static/media/usdc.webp": "/klamme/static/media/usdc.b9697c97b08ef77bcc54.webp",
+    "index.html": "/klamme/index.html",
+    "main.2f981e68.css.map": "/klamme/static/css/main.2f981e68.css.map",
+    "main.64f9dda9.js.map": "/klamme/static/js/main.64f9dda9.js.map",
+    "453.79fddfab.chunk.js.map": "/klamme/static/js/453.79fddfab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2f981e68.css",
-    "static/js/main.d4678cd6.js"
+    "static/js/main.64f9dda9.js"
   ]
 }
